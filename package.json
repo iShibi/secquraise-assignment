@@ -1,0 +1,43 @@
+{
+	"name": "secquraise-assignment",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Assignment for Internship at Secquraise",
+	"author": {
+		"name": "Shubham Parihar",
+		"email": "shubhamparihar391@gmail.com",
+		"url": "https://github.com/iShibi"
+	},
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format:check": "prettier . --check",
+		"format:fix": "prettier . --write"
+	},
+	"dependencies": {
+		"@prisma/client": "^4.1.1",
+		"@reduxjs/toolkit": "^1.8.3",
+		"next": "12.2.3",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-redux": "^8.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "18.6.3",
+		"@types/react": "18.0.15",
+		"@types/react-dom": "18.0.6",
+		"autoprefixer": "^10.4.8",
+		"eslint": "8.21.0",
+		"eslint-config-next": "12.2.3",
+		"eslint-config-prettier": "^8.5.0",
+		"postcss": "^8.4.14",
+		"prettier": "^2.7.1",
+		"prettier-plugin-tailwindcss": "^0.1.13",
+		"prisma": "^4.1.1",
+		"tailwindcss": "^3.1.7",
+		"typescript": "4.7.4"
+	},
+	"license": "MIT"
+}

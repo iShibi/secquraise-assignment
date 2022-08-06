@@ -32,7 +32,7 @@ export function Form() {
 			method: 'POST',
 			body,
 		});
-		Router.reload(window.location.pathname);
+		Router.reload();
 	};
 
 	return (
